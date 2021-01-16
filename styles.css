@@ -5,3 +5,7 @@ header {
 h1 {
     color:white;
 }
+
+a {
+    text-decoration: none;
+}
