@@ -7,7 +7,7 @@ body {
     color: white;
     background-image: url(https://i.pinimg.com/originals/fc/01/fc/fc01fcf41d53c4cab99e05c2dcaf848f.gif);
 
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 1px black;
 }
 
 #header {
@@ -21,9 +21,17 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 
     border: 5px solid hsl(0, 100%, 50%);
-    -webkit-animation: rainbow 5s infinite alternate;
+    -webkit-animation: rainbow 10s infinite alternate;
 
     border-radius: 1em;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+ul {
+    font-size: large;
 }
 
 @-webkit-keyframes rainbow {
@@ -36,10 +44,6 @@ body {
     84% {border-color: hsl(320,100%,50%);}
     100% {border-color: hsl(255, 100%, 50%);}
   }
-
-#name:focus {
-    transform: scale(1.1);
-}
 
 a {
     text-decoration: none;
@@ -55,13 +59,15 @@ a:visited {
     justify-content: center;
     align-items: center;
 
+    width:500px;
+
     background-color: rgba(255, 255, 255, 0.1);
 
     padding: 1em;
     margin: 1em;
 
     border: 3px solid hsl(0, 100%, 50%);
-    -webkit-animation: rainbow 5s infinite alternate;
+    -webkit-animation: rainbow 10s infinite alternate;
     border-radius: 1em;
 
     box-shadow: 2px 2px 4px black;
